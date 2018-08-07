@@ -1,0 +1,46 @@
+body {
+  font-size: 10px;
+  position: relative;
+  margin: auto;
+  background-color: #EDCAA5;
+  font-family: 'SF Pro Text', sans-serif;
+}
+
+.container {
+  position: absolute;
+  max-width: 50%;
+  height: auto;
+  border: 1px solid red;
+  margin: auto;
+  overflow: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+h1 {
+  color: #001E42;
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #001E42;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: medium;
+  color: #001E42;
+}
+
+input {
+  margin: 10px 25px;
+  border: none;
+  padding: 20px 20px;
+  width: 30%;
+  border-radius: 5px;
+}
