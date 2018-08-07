@@ -43,3 +43,8 @@ input {
   width: 30%;
   border-radius: 5px;
 }
+
+#toDoList {
+  font-size: 1.5rem;
+  width: 48%;
+}
