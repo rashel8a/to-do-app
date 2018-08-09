@@ -36,7 +36,7 @@ renderTheUI();
         NEW_LI.textContent = toDo.title;
 
         TODO_LIST.appendChild(NEW_LI);
-        NEW_LI.appendChild(CHECKBOX);
+        NEW_LI.appendChild(CHECKBOX); 
 
         /* Create delete button, append to NEW_LI and register an event listener for it. */
 
