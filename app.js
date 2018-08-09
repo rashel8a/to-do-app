@@ -20,7 +20,7 @@ renderTheUI();
 
   /* Filter function keeping all items that are not exactly the same as the clicked delete button */
    function deleteToDo(id) {
-     return toDos.filter(toDo => toDo.id !== id)
+     return toDos.filter(toDo => toDo.id !== id);
    }
 
    function renderTheUI() {
@@ -41,24 +41,25 @@ renderTheUI();
         /* Create delete button, append to NEW_LI and register an event listener for it. */
 
         let deleteButton = document.createElement('button');
-        deleteButton.textContent = "Delete";
+        deleteButton.textContent = 'Delete';
 
         NEW_LI.appendChild(deleteButton);
 
         deleteButton.addEventListener('click', event => {
-         toDos = deleteToDo(toDo.id){
+         toDos = deleteToDo(toDo.id);
          renderTheUI();
          });
+      });
     }
 
 ADD_TODO_FORM.addEventListener('submit', event => {
-  event.preventDefault();
-  createNewToDo();
-  });
+ event.preventDefault();
+ createNewToDo();
+ });
 
 renderTheUI();
 }
 
 window.onload = function() {
-    onReady();
+ onReady();
 };
